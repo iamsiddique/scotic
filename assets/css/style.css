@@ -485,6 +485,7 @@ textarea::-ms-input-placeholder
     border-top:2px solid #ecf0f2;
     border-bottom:2px solid #ecf0f2;
     padding:20px 0;
+    background: rgba(255, 255, 255, 0.21);
 } 
 .home-content p{
     font-size:25px;
