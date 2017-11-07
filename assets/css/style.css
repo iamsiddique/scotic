@@ -202,7 +202,24 @@ p:last-child {
 }
 
 .lightbg {
-    background-color: #dddfeb;
+    /*background-color: #dddfeb;*/
+    background: url(../images/key-difference.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.lightbg1 {
+    /*background-color: #dddfeb;*/
+    background: url(../images/career.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
 }
 .transition {
     -webkit-transition: all 300ms linear;
@@ -591,12 +608,12 @@ textarea::-ms-input-placeholder
     margin-top:30px;
 }
 .experience-content{
-    background: rgba(79, 50, 68, .7);
+    background: rgba(255, 255, 255, 0.28);
     padding:60px 40px;
     color:#fff;
 }
 .experience-content h4{
-    color:#fff;
+    color:#000;
     text-transform:uppercase;
     font-size:26px;
     font-family: "Raleway Webfont";
@@ -604,7 +621,7 @@ textarea::-ms-input-placeholder
     margin-bottom:50px;
 }
 .experience-content .content-details h5{
-    color:#fff;
+    color:#000;
     font-size:18px;
 }
 .experience-content .content-details h6{
@@ -612,10 +629,10 @@ textarea::-ms-input-placeholder
     font-size:16px;
 }
 .experience-content .content-details p{
-    color:#ecf0f2;
+    color:#000;
 }
 .experience-content .content-details.content-border{
-    border-bottom:1px solid #dadada;
+    border-bottom:1px solid #000000;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -701,7 +718,7 @@ textarea::-ms-input-placeholder
     margin-top:20px;
 }
 .contact-details{
-    background: rgba(55, 38, 57, 0.64);
+    background: rgba(55, 38, 57, 0);
     padding:60px 40px;
     color:#fff;
     margin-bottom:20px;
@@ -1091,4 +1108,7 @@ Main components
   background: rgba(255, 255, 255, 0.21);
   border-top:2px solid #ecf0f2;
     border-bottom:2px solid #ecf0f2;
+}
+.color-fff {
+    color: #fff;
 }
