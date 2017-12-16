@@ -13,6 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
     <!--For Plugins external css-->
@@ -25,7 +26,25 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <script src="assets/js/scrollMove.js"></script>
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+    .items {
+        white-space: nowrap;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    .item {
+        display: inline-block;
+        padding: 0;
+        float: none;
+    }
+
+    .img-responsive {
+        width: 100%;
+    }
+    </style>
 </head>
 
 <body>
@@ -65,7 +84,6 @@
                 <div class="row">
                     <div class="div-menu">
                         <header class="cd-header">
-                           
                         </header>
                     </div>
                     <div class="home-wrapper">
@@ -95,7 +113,6 @@
                                 <p>We offer a wide sourcing platform to cover different products , services and price points.</p>
                             </div>
                         </div>
-                       
                     </div>
                 </div>
             </div>
@@ -129,142 +146,119 @@
     </section>
     <!-- Sections -->
     <!-- Sections -->
-    <section id="features" class="sections lightbg">
-         <div class="overlay sections">
-        <div class="heading-content text-center">
-            <h3 class="color-fff">Our Specialties</h3>
-                    
+    <section id="features" class="sections lightbg" style="padding-bottom: 0px;padding-top: 0px;">
+        <div class="overlay sections">
+            <div class="heading-content text-center">
+                <h3 class="color-fff">Our Specialties</h3>
             </div>
-
             <div class="container text-center">
                 <!-- Example row of columns -->
                 <div class="row">
                     <div class="features-wrapper">
-
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="features-bg design">
-
                                 <div class="features-item">
                                     <i class="lnr lnr-screen"></i>
                                     <h6><a href="#">Designs Forecast and Developments</a></h6>
                                 </div>
-
                             </div>
                         </div>
-
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="features-bg testing">
-
                                 <div class="features-item">
                                     <i class="lnr lnr-dinner"></i>
                                     <h6><a href="#">Cost effective production partner</a></h6>
                                 </div>
-
                             </div>
                         </div>
-
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="features-bg design">
-
                                 <div class="features-item">
                                     <i class="lnr lnr-screen"></i>
                                     <h6><a href="#">Innovation in washes & Finishes</a></h6>
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="row">
-                    <div class="features-wrapper">                      
-
+                    <div class="features-wrapper">
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="features-bg development">
-
                                 <div class="features-item">
                                     <i class="lnr lnr-magic-wand"></i>
                                     <h6 style="padding-bottom: 17px;"><a >Speed to Market</a></h6>
                                 </div>
-                                   <!-- data-popup-open="popup-1"  -->
+                                <!-- data-popup-open="popup-1"  -->
                             </div>
                         </div>
-
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="features-bg launch">
-
                                 <div class="features-item">
                                     <i class="lnr lnr-rocket"></i>
                                     <h6 style="padding-bottom: 17px;"><a href="#">Smaller minimums</a></h6>
                                 </div>
-
                             </div>
-                        </div>                       
-
+                        </div>
                     </div>
                 </div>
-            </div> <!-- /container --> 
-            </div>      
-        </section>
-
-       
-        <section id="portfolio" class="sections portfolio">
-            <div class="overlay sections">
+            </div>
+            <!-- /container -->
+        </div>
+    </section>
+    <section id="portfolio" class="sections portfolio" style="padding-bottom: 0px;padding-top: 0px;">
+        <div class="overlay sections">
             <div class="container">
-
                 <!-- <div class="heading-content text-center">
                     <h3 class="portfolio-heading">Our Products</h3>
            
         </div> -->
-        <div class="col-md-6 col-sm-6 col-xs-12">
-             <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="portfolio-item">
-                        <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
-                    </div>
-                </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="portfolio-item">
-                        <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="portfolio-item">
-                        <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="portfolio-item">
-                        <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
-                    </div>
-                </div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="experience-content" style="padding-top: 30px;">
-                                <h4 style="margin-bottom: 20px;">Our Products</h4>
-                                <div class="content-details content-border portfoli-content">
-                                    <h5 style="margin-bottom: 5px">Apparel :</h5>
-                                    <p>Menswear</p>
-                                    <p>Womenswear</p>
-                                    <p>Kidswear</p>
-                                    
-                                </div>
-                                 <div class="content-details content-border  portfoli-content">
-                                    <h5 style="margin-bottom: 5px">Home :</h5>
-                                    <p>Soft goods</p>
-                                    <p>Hard goods</p>                                    
-                                </div>
-                                <div class="content-details content-border  portfoli-content">
-                                    <h5 style="margin-bottom: 5px">Accessories :</h5>
-                                    <p>Scarves</p>
-                                    <p>Bags and belts</p>
-                                    <p>Jewelry</p>
-                                    
-                                </div>
-                               
-                            </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="portfolio-item">
+                            <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
                         </div>
-        <!-- Example row of columns -->
-        <!-- <div class="row">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="portfolio-item">
+                            <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="portfolio-item">
+                            <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="portfolio-item">
+                            <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="experience-content" style="padding-top: 30px;">
+                        <h4 style="margin-bottom: 20px;">Our Products</h4>
+                        <div class="content-details content-border portfoli-content">
+                            <h5 style="margin-bottom: 5px">Apparel :</h5>
+                            <p>Menswear</p>
+                            <p>Womenswear</p>
+                            <p>Kidswear</p>
+                        </div>
+                        <div class="content-details content-border  portfoli-content">
+                            <h5 style="margin-bottom: 5px">Home :</h5>
+                            <p>Soft goods</p>
+                            <p>Hard goods</p>
+                        </div>
+                        <div class="content-details content-border  portfoli-content">
+                            <h5 style="margin-bottom: 5px">Accessories :</h5>
+                            <p>Scarves</p>
+                            <p>Bags and belts</p>
+                            <p>Jewelry</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example row of columns -->
+                <!-- <div class="row">
             <div class="portfolio-wrapper">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="portfolio-item">
@@ -288,7 +282,7 @@
                 </div>
             </div>
         </div> -->
-        <!-- <div class="row">
+                <!-- <div class="row">
             <div class="portfolio-wrapper2">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="portfolio-item width-img">
@@ -307,9 +301,9 @@
                 </div>
             </div>
         </div> -->
+            </div>
+            <!-- /container -->
         </div>
-        <!-- /container -->
-    </div>
     </section>
     <div class="popup" data-popup="popup-1">
         <div class="popup-inner">
@@ -320,42 +314,45 @@
         </div>
     </div>
     <!-- Sections -->
-      <section id="testimonial" class="lightbg1">
-            <div class="container">
-               
-                <div class="row">
-                    <div class="testimonial-wrapper sections4">
-                         <div class="col-md-7 col-sm-6 col-xs-12">
-                            <div class="profile-photo">
-                                <!-- <img src="assets/images/man2.png" alt="testimonial" /> -->
+    <section id="testimonial" class="sections lightbg1">
+        <div class="container">
+            <div class="row">
+                <div class="testimonial-wrapper sections4">
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <div class="testimonial-content text-left">
+                            <div class="testimonial-quote">
+                                <i class="fa fa-quote-left"></i>
+                                <h5>Join Our Team</h5>
+                                <p>Have a passion for fashion? If you are a motivated, detail oriented, passionate about what you do, then get in touch with us..</p>
                             </div>
                         </div>
-
-                        <div class="col-md-5 col-sm-6 col-xs-12">
-                            <div class="testimonial-content text-left">
-
-                                <div class="testimonial-quote">
-                                    <i class="fa fa-quote-left"></i>
-                                    <h5>Join Our Team</h5>                                 
-                                    <p>Have a passion for fashion? If you are a motivated, detail oriented, passionate about what you do, then get in touch with us..</p>
-                                </div>
-
-                                <!-- <div class="singnature">
-    <img src="assets/images/signature.png" alt="Signature" />
-</div>
-<div class="regards-by">
-    <h5>Deniel Croft</h5>
-    <p>Creative Designer, Levy</p>
-</div> -->
-
-                            </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <div class="heading-content text-center">
+                            <h3 class="color-fff">Brands we collaborate with</h3>
                         </div>
-
-                       
-                    </div> 
+                        <div class="wrap container">
+                            <ul class="items list-unstyled row">
+                                <li class="item col-xs-4"><img class="img-responsive" src="https://unsplash.it/446/242?image=680" alt="">
+                                </li>
+                                <li class="item col-xs-4">
+                                    <img class="img-responsive" src="https://unsplash.it/446/242?image=674" alt="">
+                                </li>
+                                <li class="item col-xs-4"><img class="img-responsive" src="https://unsplash.it/446/242?image=660" alt="">
+                                </li>
+                                <li class="item col-xs-4"><img class="img-responsive" src="https://unsplash.it/446/242?image=656" alt="">
+                                </li>
+                                <li class="item col-xs-4"><img class="img-responsive" src="https://unsplash.it/446/242?image=646" alt="">
+                                </li>
+                                <li class="item col-xs-4"><img class="img-responsive" src="https://unsplash.it/446/242?image=633" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>     
-        </section> 
+            </div>
+        </div>
+    </section>
     <!-- Sections -->
     <section id="contact" class="contact">
         <div class="overlay sections">
@@ -438,6 +435,27 @@
     </footer>
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script>
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    $(function() {
+        scrollMove('.items', 60, 1);
+    })
+    </script>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/jquery.magnific-popup.js"></script>
     <script src="assets/js/modernizr.js"></script>

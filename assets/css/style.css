@@ -734,7 +734,10 @@ background: url(../images/header-bg.jpg) no-repeat center top fixed;
 
 /* For Testimonial Section*/
 .testimonial-content{
-    margin-top:150px;
+    margin-top:30px;
+    margin-bottom:30px;
+    background: #000000ab;
+    padding: 20px 30px;
 }
 .testimonial-content .testimonial-quote i{
     font-size:60px;
