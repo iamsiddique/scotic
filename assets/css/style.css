@@ -483,7 +483,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(../images/city.jpg) no-repeat center top fixed;
+    background: url(../images/city.jpg) no-repeat center bottom fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -652,6 +652,19 @@ background: url(../images/header-bg.jpg) no-repeat center top fixed;
     width: 100%;
     overflow: hidden;
 }
+.portfolio{
+    background: url(../images/our-products.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.portfolio-heading{
+    background: rgba(0, 0, 0, 0.28);
+    padding:20px 10px;
+}
 .experience{
     background: url(../images/section3.jpg) no-repeat center top fixed;
     background-size: cover;
@@ -691,15 +704,20 @@ background: url(../images/header-bg.jpg) no-repeat center top fixed;
     margin-bottom:12px;
 }
 .experience-content .content-details.content-border{
-    border-bottom:1px solid #000000;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    border-bottom:1px solid #fff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
-
-
+.portfoli-content h5 {
+    font-size:24px;
+}
+.portfoli-content p {
+    font-size:16px;
+    margin-bottom:0 !important;
+}
 /* For Portfolio Section*/
 .portfolio-item {
-	margin-bottom:20px;
+	margin-bottom:20px; 
 }
 
 .portfolio-wrapper2{
@@ -721,7 +739,7 @@ background: url(../images/header-bg.jpg) no-repeat center top fixed;
 .testimonial-content .testimonial-quote i{
     font-size:60px;
     margin-bottom:40px;
-    color:#6d809e;
+    color:#fff;
 }
 .testimonial-content .testimonial-quote p{
     font-size:16px;
@@ -734,6 +752,17 @@ background: url(../images/header-bg.jpg) no-repeat center top fixed;
 }
 .testimonial-content .regards-by h5{
     margin-bottom:5px;
+}
+.testimonial-quote p {
+    color:#fff;
+}
+.testimonial-quote h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 44px;
+    margin-bottom: 50px;
+    color:#fff;
 }
 .profile-photo{
     height:650px;
