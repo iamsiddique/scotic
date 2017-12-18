@@ -1460,7 +1460,7 @@ ul{
     text-decoration: none;
 }
 
-@media only screen and (max-width: -width: 768px) {
+@media only screen and (max-width: 768px) {
    
     #main-nav {
     
