@@ -123,19 +123,19 @@ $(window).on("scroll", function() {
         headerPos = ((yPer * headerHeight) - headerHeight); // Calculate position of header (starting from minus the height of itself)
 
   // Change the top, left, transform and height of the logo
-  logo.css({
-    top: logoPos + "%",
-    left: logoPos + "%",
-    transform: "translate3d(-" + logoPos + "%,-" + logoPos + "%,0)",
-    display:"block",
-    height: logoSize
-  });
+  // logo.css({
+  //   top: logoPos + "%",
+  //   left: logoPos + "%",
+  //   transform: "translate3d(-" + logoPos + "%,-" + logoPos + "%,0)",
+  //   //display:"block",
+  //   height: logoSize
+  // });
   
   // Change the transform and opacity of the header
   $('#logohead').css({
     //transform: "translate3d(0," + headerPos + "px,0)",
-        top: headerPos,    
-    opacity: yPer
+       // top: headerPos,    
+    ///opacity: yPer
   });
 });
     /*---------------------------------------------*
