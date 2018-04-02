@@ -24,15 +24,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
 /*==========================================
 PRE LOADER 
 ==========================================*/
@@ -199,7 +190,7 @@ h4 {
 
 h5 {
     font-size: 1.3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 
 h6 {
@@ -540,7 +531,9 @@ Extra height css
     padding-bottom: 0;
 }
 
-
+.margin-bottom-0{
+    margin-bottom: 0 !important;
+}
 
 
 
@@ -707,21 +700,10 @@ textarea::-ms-input-placeholder {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*For About Us Section */
 
 .about-content {
-    margin-top: 140px;
+    margin-top: 25%;
 }
 
 .about-content h4 {
@@ -968,7 +950,7 @@ textarea::-ms-input-placeholder {
 }
 
 .experience-wrapper {
-    margin-top: 30px;
+    margin-top: 10%;
 }
 
 .experience-content {
@@ -999,7 +981,7 @@ textarea::-ms-input-placeholder {
 }
 
 .bg-custom-color {
-    background: #eb9433 !important;
+    background: #bd6034 !important;
 }
 
 .bg-custom-color-opac {
@@ -1007,7 +989,7 @@ textarea::-ms-input-placeholder {
 }
 
 .custom-h4-1 {
-    font-size: 35px !important;
+    font-size: 34px !important;
     margin-bottom: 0px !important;
     line-height: 1;
 }
@@ -1205,19 +1187,25 @@ textarea::-ms-input-placeholder {
     color: #fff;
     margin-bottom: 20px;
     background: rgba(0, 0, 0, 0.28);
-    padding: 60px 40px;
+    padding: 15px 40px;
     color: #fff;
 }
 
 .contact-details h4 {
+    margin-bottom: 17px;
+    color: #ffa154;
+    font-size: 24px;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+/*.contact-details h4 {
     margin-bottom: 25px;
     color: #ffa154;
     border-bottom: 1px solid;
     padding-bottom: 5px;
-}
-
+}*/
 .contact-details p {
-    margin: 0 0 10px;
+    margin: 0 0 5px;
     /*color:#c3bec2;*/
 }
 
@@ -1503,7 +1491,7 @@ ul {
 #main-nav li a {
     position: relative;
     display: block;
-    padding: 8% 10%;
+    padding: 5% 10%;
     height: 100%;
     border-bottom: 1px solid #7d4f29;
     color: #ffffff;
@@ -1792,15 +1780,25 @@ ul {
 .padding-b-17 {
     padding-bottom: 17px !important;
 }
+.padding-12-12 {
+    padding: 12px 12px !important;
+}
 
 .padding-t-30 {
     padding-top: 30px;
 }
-
+.margin-left-4 {
+    margin-left: 4%;
+}
+.margin-left-20 {
+    margin-left: 20px;
+}
 .margin-top-20 {
     margin-top: 20px;
 }
-
+.margin-top-10 {
+    margin-top: 10px;
+}
 .margin-bottom-20 {
     margin-bottom: 20px;
 }
@@ -1899,13 +1897,13 @@ ul {
     }
     #main-nav {
 
-        width: 12%;
+        width: 11%;
     }
     .hideit-large {
         display: none;
     }
     #main-nav.is-visible-large {
-        top: 10%;
+        top: 4%;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
         -webkit-transform: translateY(0);
         -moz-transform: translateY(0);
@@ -1923,4 +1921,7 @@ ul {
     .is-visible-large .cd-close-menu {
         display: none !important;
     }
+}
+.white-spc {
+   white-space: normal !important;
 }
