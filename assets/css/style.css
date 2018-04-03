@@ -993,6 +993,11 @@ textarea::-ms-input-placeholder {
     margin-bottom: 0px !important;
     line-height: 1;
 }
+.custom-h4-2 {
+    font-size: 31px !important;
+    margin-bottom: 15px !important;
+    line-height: 1;
+}
 
 .custom-h4 {
     font-size: 23px !important;
