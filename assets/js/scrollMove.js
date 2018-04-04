@@ -18,7 +18,7 @@ function scrollMove( ele ,frame ,step ) {
         }else{
             temp = temp+step ;
         }
-        $items.scrollLeft( temp 
+        $items.scrollLeft( temp );
     }
 
     setInterval(move , 1000/frame);
