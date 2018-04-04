@@ -727,15 +727,6 @@ textarea::-ms-input-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
 /*For Features Section*/
 
 .features-bg {
@@ -994,7 +985,7 @@ textarea::-ms-input-placeholder {
     line-height: 1;
 }
 .custom-h4-2 {
-    font-size: 31px !important;
+    font-size: 30px !important;
     margin-bottom: 15px !important;
     line-height: 1;
 }
@@ -1824,6 +1815,10 @@ ul {
     display: inline-block !important;
 }
 
+.top-34 {
+    top: -34px;
+}
+
 @media only screen and (max-width: 768px) {
 
     #main-nav {
@@ -1865,6 +1860,15 @@ ul {
         background-size: cover;
         background-position-x: -544px;
     }
+    .about-content {
+    margin-top: 5%;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+    .about-content {
+    margin-top: 10%;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width:1023px) {
@@ -1888,6 +1892,9 @@ ul {
     #main-nav {
         width: 12%;
     }
+    .about-content {
+    margin-top: 10%;
+}
 }
 
 @media only screen and (min-width: 1170px) {
